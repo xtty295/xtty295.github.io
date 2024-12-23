@@ -3,9 +3,265 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя первая страница</title>
+    <title>Document</title>
+    <style>
+        nav{ 
+            background-color: black;
+            color: rgb(230, 230, 230);
+            text-align: center;
+        }
+        .picture1{
+
+            width: 100%;
+            
+
+        }     
+        .knopka{
+            text-align: center;
+
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(226, 226, 226);
+            display: inline-block;
+            padding: 1em .75em;
+            font-size: 1.25em;
+            font-weight: bold;
+            margin-right: 6.5em;
+
+        }
+        body{
+            padding: 0px;
+        
+            margin: 0;
+            background-color: bisque
+
+        }
+        #onas{
+            height: 100vh;
+            
+            text-align: justify;
+            padding: 3em 3.5em;
+            
+            font-size: 1.15em;
+            background-color: burlywood;
+            color: rgb(0, 0, 0);
+
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .portfolio{
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pic{
+            display: flex;
+            flex-direction: column;
+            padding: 3em 3.5em;
+        }
+            
+        
+        span{
+            width: 100%;
+            margin-top: 2.5em;
+            text-align: center;
+            font-size: 1.5em;
+
+
+        }
+        #regestr{
+            height: 100vh;
+            
+            text-align: justify;
+            padding: 3em 3.5em;
+            
+            font-size: 1.15em;
+            background-color: rgb(204, 173, 132);
+            color: rgb(0, 0, 0);
+        }
+        .formregestr{
+            margin: 2.5em;
+        }
+        .gorod{
+            font-size: 1.15em;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #otpr{
+            width: 9.5em;
+            height: 3.5em;
+
+           
+        }
+        #portfolio{
+            background-color: bisque;
+            height: 100vh;
+            margin: 0;
+            margin: 0;
+        }
+        .icon{
+            width: 10em;
+            transition:0.5s ;
+            
+        
+        }
+        .icon:hover{
+            width: 12em;
+        }
+        .icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10em;
+        }
+        #kontakti{
+            padding-bottom: 5em;
+            padding-left: 4em;
+        }
+        .svyaz:hover{
+            font-size: 2em;
+            padding-bottom: 1.5em;
+            color: darkgreen;
+            
+        }
+        .svyaz{
+            transition: 0.5s;
+        }
+
+
+    
+        
+</style>
 </head>
 <body>
-    <h1>Привет мир!</h1>
-</body> 
-</html>   
+    <nav>
+        <a href="#onas" class="nav">О нас</a>
+        <a href="#portfolio" class="nav">Портфолио</a>
+        <a href="#kontakti" class="nav">Контакты</a>
+        <a href="#regestr" class="nav">Регистрация</a>
+    </nav>
+    <div id="onas"><h1>Информация о нас</h1><p>Преобразите свой дом в пространство мечты
+
+        Сделайте свой дом отражением вашего уникального стиля и уюта с помощью наших профессиональных услуг по дизайну интерьера.
+        
+        Мы предлагаем комплексные решения для создания интерьера, который будет вдохновлять:
+        
+        Планировка пространства и зонирование
+        Выбор мебели и декоров, подходящих вашему вкусу
+        Оптимальное использование освещения для создания правильной атмосферы
+        Подбор цветовых палитр и материалов, которые дополнят ваше видение
+        Интеграция последних тенденций в дизайне с вечной классикой
+        
+        Почему стоит выбрать нас:
+        
+        Опытные дизайнеры: Наши дизайнеры обладают обширными знаниями в области дизайна интерьера, что гарантирует воплощение ваших идей в стильное и функциональное пространство.
+        Индивидуальный подход: Мы понимаем, что у каждого дома и владельца есть свои уникальные потребности. Мы работаем в тесном сотрудничестве с вами, чтобы создать пространство, которое идеально отражает ваш стиль жизни.
+        Комплексное обслуживание: Мы предлагаем полный спектр услуг от планирования до реализации. Вам не придется беспокоиться о каких-либо деталях.
+        Гарантия качества: Мы гордимся своей работой и уверены в том, что создадим для вас дом вашей мечты. Мы гарантируем высочайшее качество и внимание к деталям на каждом этапе проекта.
+        
+        Свяжитесь с нами сегодня, чтобы записаться на консультацию и сделать первый шаг к созданию дома, который вы всегда хотели. Мы воплотим ваше видение в реальность и превратим ваш дом в место, где вы будете чувствовать себя счастливыми, вдохновленными и уютными. Преимущества нашей кампании по созданию интерьера:
+
+        Экспертиза и опыт:
+        
+         Команда опытных дизайнеров интерьеров с образованием и проверенным опытом.
+         Глубокое понимание различных стилей, материалов и тенденций дизайна.
+        
+        Индивидуализированный подход:
+        
+         Консультации и обсуждения, чтобы понять потребности, предпочтения и стиль жизни клиентов.
+         Создание индивидуальных дизайнерских решений, которые удовлетворяют уникальным требованиям каждого проекта.
+        
+        Комплексные услуги:
+        
+         Предоставление всех аспектов дизайна интерьера, включая планировку пространства, выбор материалов и мебели, освещение и декор.
+         Сотрудничество с надежными поставщиками и подрядчиками для обеспечения качественной реализации.
+        
+        Внимание к деталям:
+        
+         Меticulous планирование и тщательный выбор материалов и мебели для создания гармоничного и функционального пространства.
+         Контроль качества на каждом этапе, чтобы обеспечить безупречный конечный результат.
+        
+        Инновационные решения:
+        
+         Использование инновационных методов и технологий для улучшения дизайна и функциональности интерьеров.
+         Внедрение новейших тенденций и материалов для создания современных и стильных пространств.
+        
+        Экологически ответственный подход:
+        
+         Упор на использование экологически чистых материалов и методов.
+         Создание здоровых и устойчивых интерьеров, которые способствуют благополучию и уменьшают воздействие на окружающую среду.
+        
+        Прозрачность и общение:
+        
+         Открытый и прозрачный процесс дизайна с регулярными обновлениями и обсуждениями.
+         Четкое изложение бюджета, графика и ожиданий на протяжении всего проекта.
+        
+        Довольные клиенты:
+        
+         Обширное портфолио довольных клиентов, которые высоко оценивают наш профессионализм, креативность и приверженность качеству.
+         Сильные отзывы и признание в отрасли дизайна интерьера </p></div>
+         
+    <div id = "portfolio">
+        <h1>Портфолио</h1> 
+        <div class="portfolio">
+            <div class="pic">   
+                <img class="picture1" src="https://mykitchendesign.ru/wp-content/uploads/2021/01/image011-min-15.jpg">
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius officiis dolorum alias ducimus consequuntur at soluta est sapiente ut possimus cum pariatur ea reprehenderit ipsam voluptate, id suscipit illum veniam?</span>
+            </div>
+            <div class = "pic">
+                <img class="picture1" src="https://standart-sro.ru/wp-content/uploads/2/4/e/24efcfb2964737673f2230d57162a40e.jpeg">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veniam consequatur sunt tempora pariatur nulla porro error, enim soluta ullam quisquam possimus obcaecati quam. Labore placeat velit suscipit ad minima.</span>
+            </div>
+            <div class="pic"> 
+                <img class="picture1" src="https://roomester.ru/wp-content/uploads/2018/10/stilnye-interery-18.jpg">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti earum, perferendis enim rerum assumenda voluptates. Quisquam ut iste voluptas earum doloremque laudantium molestias. Odio quo pariatur ipsam porro ducimus nam.</span>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id = "regestr"><h1>Регистрация и оформление заказа</h1>    
+        <p class="gorod">Номер телефона/Электронная почта</p>
+        <form>
+            <input type = "text">
+            <p class="gorod">Ваш город</p>
+            <div class="formregestr">
+                <input id="kras" type = "radio" name="test"><label for="kras">Краснодар</label>
+            </div>
+            <div class="formregestr">
+                <input id="mosk" type = "radio" name="test"><label for="mosk">Москва</label>
+            </div>
+            <div class="formregestr">
+                <input id="ekat" type = "radio" name="test"><label for="ekat">Екатеринбург</label>
+            </div>
+            <div class="formregestr">
+                <input id="sankt-p" type = "radio" name="test"><label for="sankt-p">Санкт-Питербург</label>
+            </div>
+         <input id="otpr" type= "submit"/>
+        </form>
+    </div>
+    <div id ="kontakti"><h1>Связь с нами</h1>
+        <div class="icons">
+            <img class="icon" src ="img/1419113_calls_phone_icon.png">
+            <span class="svyaz">Позвонить</span>
+            <img class="icon" src = "img/3225179_app_logo_media_popular_social_icon.png">
+            <span class="svyaz" >Написать</span>
+            <img class="icon" src ="img/3787425_telegram_logo_messanger_social_social media_icon.png">
+            <span class="svyaz">Написать</span>
+            <img class="icon" src = "img/7693293_vk_social media_logo_icon.png">
+            <span class="svyaz">Написать</span>
+            <img class="icon" src = "img/85434_email_icon.png">
+            <span class="svyaz">Написать</span>
+        </div>
+    </div>         
+</body>
+</html>
+
+
+
